@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#stopwatch {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #0ABAB5; /* ティファニーブルー */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #078A84; /* ホバー時の濃いめの色 */
+}
+
+button:disabled {
+    background-color: #A0A0A0;
+    cursor: not-allowed;
+}
